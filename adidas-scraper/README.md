@@ -46,7 +46,7 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 *1.  Clone this repository*
 
--  git clone https://github.com/shravanirakala/adidas-scraper.git
+-  git clone https://github.com/shravanirakala/shravanirakala.github.io/adidas-scraper.git
 -  cd adidas-scraper
 
 *2.  Create a virtual environment*
