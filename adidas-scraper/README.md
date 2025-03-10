@@ -43,18 +43,18 @@ Required environment variables set up for email authentication
 
 ## Installation
 
-1.Clone this repository:
+1.  Clone this repository:
 
 git clone https://github.com/yourusername/adidas-discount-notifier.git
 cd adidas-discount-notifier
 
-2.Create a virtual environment
+2.  Create a virtual environment
 
 python -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
 
-3.Install dependencies:
+3.  Install dependencies:
 pip install -r requirements.txt
 
 
@@ -66,11 +66,11 @@ SMTP_PORT=587
 EMAIL_SENDER=your_email@example.com
 EMAIL_PASSWORD=your_app_password
 
-5.Usage
+5.  Usage
 Run the script to fetch current discounts and receive an email notification:
 python main.py
 
-6.Customizing Search Parameters
+6.  Customizing Search Parameters
 
 You can modify the search parameters in the main() function:
 For example:
