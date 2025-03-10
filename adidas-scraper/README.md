@@ -6,9 +6,9 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 ## Features
 
-✅ Fetch Adidas Discounts – Retrieves products on sale using the Adidas API.
-✅ Email Notification – Sends a structured email with discounted products.
-✅ Customizable Search – Users can choose search preferences based on filters such as gender, category, and size.
+###  -  Fetch Adidas Discounts – Retrieves products on sale using the Adidas API.
+###  -  Email Notification – Sends a structured email with discounted products.
+###  -  Customizable Search – Users can choose search preferences based on filters such as gender, category, and size.
 
 ## Email Notification:-
 <img width="1000" alt="Adidas Discount Notification" src="https://github.com/user-attachments/assets/55070a0a-a5e1-43dc-8daa-a3bed4c422fb" />
@@ -16,7 +16,7 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 ## Project Structure
 📂 `adidas_discount_notifier`  
-├── 📄 `main.py`              *Main script execution*  
+├── 📄 `main.py`              ***Main script execution****  
 ├── 📄 `email_notify.py`      *Handles email notifications*  
 ├── 📄 `html_generator.py`    *Generates HTML email content*  
 ├── 📄 `api_client.py`        *Adidas API requests and product search*  
@@ -28,8 +28,8 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 ### Python libraries used in this project:-
 
-  -  curl_cffi – For making HTTP requests to fetch product details.
-  -  pydantic – For defining structured models and data validation.
+  -  ####curl_cffi#### – For making HTTP requests to fetch product details.
+  -  ####pydantic#### – For defining structured models and data validation.
   -  rich – For colorful and formatted console output.
   -  smtplib – For sending emails via SMTP.
   -  email.mime – For constructing HTML and plain text emails.
@@ -46,7 +46,7 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 1.  Clone this repository:
 
--  git clone [link text](https://github.com/yourusername/adidas-scraper.git)
+-  git clone https://github.com/yourusername/adidas-scraper.git
 -  cd adidas-scraper
 
 2.  Create a virtual environment
