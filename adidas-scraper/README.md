@@ -15,16 +15,16 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 
 ## Project Structure
+📂 `adidas_discount_notifier`  
+├── 📄 `main.py`              # Main script execution  
+├── 📄 `email_notify.py`      # Handles email notifications  
+├── 📄 `html_generator.py`    # Generates HTML email content  
+├── 📄 `api_client.py`        # Adidas API requests and product search  
+├── 📄 `models.py`            # Pydantic models for structured data  
+├── 📄 `requirements.txt`     # Required Python dependencies  
+├── 📄 `.env`                 # Stores email credentials (not committed)  
+└── 📄 `README.md`            # Project documentation
 
-📂 adidas_discount_notifier
-├── 📄 main.py                 # Main script execution
-├── 📄 email_notify.py         # Handles email notifications
-├── 📄 html_generator.py       # Generates HTML email content
-├── 📄 api_client.py           # Adidas API requests and product search
-├── 📄 models.py               # Pydantic models for structured data
-├── 📄 requirements.txt        # Required Python dependencies
-├── 📄 .env                    # Stores email credentials (not committed)
-└── 📄 README.md               # Project documentation
 
 ### Python libraries used in this project:-
 
@@ -37,25 +37,26 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 ## Prerequisites
 
-Python 3.8 or higher
-An email account for sending notifications (currently configured for iCloud)
-Required environment variables set up for email authentication
+-  Python 3.8 or higher
+-  An email account for sending notifications (currently configured for iCloud)
+-  Required environment variables set up for email authentication
 
 ## Installation
 
 1.  Clone this repository:
 
-git clone https://github.com/yourusername/adidas-discount-notifier.git
-cd adidas-discount-notifier
+-  git clone [link text](https://github.com/yourusername/adidas-scraper.git)
+-  cd adidas-scraper
 
 2.  Create a virtual environment
 
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate     # Windows
+-  python -m venv venv
+-  source venv/bin/activate  # macOS/Linux
+-  venv\Scripts\activate     # Windows
 
 3.  Install dependencies:
-pip install -r requirements.txt
+
+-  pip install -r requirements.txt
 
 
 4. Set up environment variables
@@ -67,6 +68,7 @@ EMAIL_SENDER=your_email@example.com
 EMAIL_PASSWORD=your_app_password
 
 5.  Usage
+
 Run the script to fetch current discounts and receive an email notification:
 python main.py
 
@@ -74,9 +76,9 @@ python main.py
 
 You can modify the search parameters in the main() function:
 For example:
-gender = "Women"          # Options: Women, Men, Kids, Unisex
-sorttype = "top-sellers"  # Options: price-low-to-high, top-sellers, newest-to-oldest, price-high-to-low
-size = 9 # UK shoe size
+-  gender = "Women"          # Options: Women, Men, Kids, Unisex
+-  sorttype = "top-sellers"  # Options: price-low-to-high, top-sellers, newest-to-oldest, price-high-to-low
+-  size = 9 # UK shoe size
 
 
 
