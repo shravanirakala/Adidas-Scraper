@@ -1,6 +1,6 @@
 #  Adidas Scaper - Adidas Discount Notifier
 
-This project will help track great deals on Adidas and notifies you of discounted products when available based on your specific preferences. 
+This project will help track great deals on Adidas and notifies you of discounted products when available based on your preferences. 
 
 Implementation uses Python and web scraping techniques to track the Adidas UK website for discounted products that match your specific criteria (gender, category, size). When matching items are found, the system retrieves product details from the Adidas API and sends an email in formatted HTML format containing all relevant information,such as product images, pricing & discount information including direct purchase links. 
 
