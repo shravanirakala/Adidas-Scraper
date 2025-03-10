@@ -1,6 +1,6 @@
 Adidas Discount Notifier
 
-This code will help track great deals on Adidas and notifies you on email of discounted products matching your specific preferences.
+This scripts will help track great deals on Adidas and notifies you on email of discounted products matching your specific preferences.
 
 Features
 
