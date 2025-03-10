@@ -1,0 +1,9 @@
+# curl_cffi – Making API requests
+# pydantic – Data validation and modeling
+# rich – Console output formatting
+# smtplib – Send emails via SMTP
+# email.mime – Format email messages
+
+curl_cffi 
+pydantic  
+ricH
