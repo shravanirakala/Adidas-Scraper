@@ -1,20 +1,20 @@
-🛍️ Adidas Discount Notifier
+#  Adidas Scaper - Adidas Discount Notifier
 
 This project will help track great deals on Adidas and notifies you of discounted products when available based on your specific preferences. 
 
 Implementation uses Python and web scraping techniques to track the Adidas UK website for discounted products that match your specific criteria (gender, category, size). When matching items are found, the system retrieves product details from the Adidas API and sends an email in formatted HTML format containing all relevant information,such as product images, pricing & discount information including direct purchase links. 
 
-🚀 Features
+## Features
 
 ✅ Fetch Adidas Discounts – Retrieves products on sale using the Adidas API.
 ✅ Email Notification – Sends a structured email with discounted products.
 ✅ Customizable Search – Users can choose search preferences based on filters such as gender, category, and size.
 
-Email Notification:-
+## Email Notification:-
 <img width="1000" alt="Adidas Discount Notification" src="https://github.com/user-attachments/assets/55070a0a-a5e1-43dc-8daa-a3bed4c422fb" />
 
 
-Project Structure
+## Project Structure
 
 📂 adidas_discount_notifier
 ├── 📄 main.py                 # Main script execution
@@ -26,7 +26,7 @@ Project Structure
 ├── 📄 .env                    # Stores email credentials (not committed)
 └── 📄 README.md               # Project documentation
 
-✨ Python libraries used in this project:-
+### Python libraries used in this project:-
 
   curl_cffi – For making HTTP requests to fetch product details.
   pydantic – For defining structured models and data validation.
@@ -35,13 +35,13 @@ Project Structure
   email.mime – For constructing HTML and plain text emails.
 
 
-📋 Prerequisites
+## Prerequisites
 
 Python 3.8 or higher
 An email account for sending notifications (currently configured for iCloud)
 Required environment variables set up for email authentication
 
-🔧 Installation
+## Installation
 
 1.Clone this repository:
 
