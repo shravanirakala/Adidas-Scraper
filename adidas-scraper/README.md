@@ -17,9 +17,9 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 ## Project Structure
 📂 `adidas_discount_notifier`  
 ├── 📄 `main.py`              *Main script execution*  
-├── 📄 `email_notify.py`      *Handles email notifications*  
+├── 📄 `email_sender.py`      *Handles email notifications*  
 ├── 📄 `html_generator.py`    *Generates HTML email content*  
-├── 📄 `api_client.py`        *Adidas API requests and product search*  
+├── 📄 `api.py`               *Adidas API requests and product search*  
 ├── 📄 `models.py`            *Pydantic models for structured data*  
 ├── 📄 `requirements.txt`     *Required Python dependencies*  
 ├── 📄 `.env`                 *Stores email credentials (not committed)*  
@@ -46,7 +46,7 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 *1.  Clone this repository*
 
--  git clone https://github.com/yourusername/adidas-scraper.git
+-  git clone https://github.com/shravanirakala/adidas-scraper.git
 -  cd adidas-scraper
 
 *2.  Create a virtual environment*
