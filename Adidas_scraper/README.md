@@ -10,6 +10,9 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 ✅ Email Notification – Sends a structured email with discounted products.
 ✅ Customizable Search – Users can choose search preferences based on filters such as gender, category, and size.
 
+Email Notification:-
+<img width="1000" alt="Adidas Discount Notification" src="https://github.com/user-attachments/assets/55070a0a-a5e1-43dc-8daa-a3bed4c422fb" />
+
 
 Project Structure
 
