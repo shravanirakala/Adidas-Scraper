@@ -1,6 +1,7 @@
 from curl_cffi import requests
 from rich.console import Console
 from models import SearchResponse, SearchProduct, ProductAvailability
+from typing import Optional
 
 console = Console()
 

@@ -6,4 +6,4 @@
 
 curl_cffi 
 pydantic  
-ricH
+rich
