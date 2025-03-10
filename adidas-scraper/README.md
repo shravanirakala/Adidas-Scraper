@@ -16,23 +16,24 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 ## Project Structure
 📂 `adidas_discount_notifier`  
-├── 📄 `main.py`              # Main script execution  
-├── 📄 `email_notify.py`      # Handles email notifications  
-├── 📄 `html_generator.py`    # Generates HTML email content  
-├── 📄 `api_client.py`        # Adidas API requests and product search  
-├── 📄 `models.py`            # Pydantic models for structured data  
-├── 📄 `requirements.txt`     # Required Python dependencies  
-├── 📄 `.env`                 # Stores email credentials (not committed)  
-└── 📄 `README.md`            # Project documentation
+├── 📄 `main.py`              *Main script execution*  
+├── 📄 `email_notify.py`      *Handles email notifications*  
+├── 📄 `html_generator.py`    *Generates HTML email content*  
+├── 📄 `api_client.py`        *Adidas API requests and product search*  
+├── 📄 `models.py`            *Pydantic models for structured data*  
+├── 📄 `requirements.txt`     *Required Python dependencies*  
+├── 📄 `.env`                 *Stores email credentials (not committed)*  
+└── 📄 `README.md`            *Project documentation*
 
 
 ### Python libraries used in this project:-
 
-  curl_cffi – For making HTTP requests to fetch product details.
-  pydantic – For defining structured models and data validation.
-  rich – For colorful and formatted console output.
-  smtplib – For sending emails via SMTP.
-  email.mime – For constructing HTML and plain text emails.
+  -  curl_cffi – For making HTTP requests to fetch product details.
+  -  pydantic – For defining structured models and data validation.
+  -  rich – For colorful and formatted console output.
+  -  smtplib – For sending emails via SMTP.
+  -  email.mime – For constructing HTML and plain text emails.
+    
 
 
 ## Prerequisites
@@ -62,15 +63,15 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 4. Set up environment variables
 Create a .env file in the root directory:
 
-SMTP_SERVER=smtp.mail.me.com
-SMTP_PORT=587
-EMAIL_SENDER=your_email@example.com
-EMAIL_PASSWORD=your_app_password
+-  SMTP_SERVER=smtp.mail.me.com
+-  SMTP_PORT=587
+-  EMAIL_SENDER=your_email@example.com
+-  EMAIL_PASSWORD=your_app_password
 
 5.  Usage
 
 Run the script to fetch current discounts and receive an email notification:
-python main.py
+-  python main.py
 
 6.  Customizing Search Parameters
 
