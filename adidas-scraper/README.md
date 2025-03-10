@@ -1,4 +1,4 @@
-#  Adidas Scaper - Adidas Discount Notifier
+#  Adidas Scraper - Adidas Discount Notifier
 
 This project will help track great deals on Adidas and notifies you of discounted products when available based on your preferences. 
 
