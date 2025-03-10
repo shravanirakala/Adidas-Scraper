@@ -6,9 +6,9 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 ## Features
 
-###  -  Fetch Adidas Discounts – Retrieves products on sale using the Adidas API.
-###  -  Email Notification – Sends a structured email with discounted products.
-###  -  Customizable Search – Users can choose search preferences based on filters such as gender, category, and size.
+-  **Fetch Adidas Discounts** – Retrieves products on sale using the Adidas API.
+-  **Email Notification** – Sends a structured email with discounted products.
+-  **Customizable Search** – Users can choose search preferences based on filters such as gender, category, and size.
 
 ## Email Notification:-
 <img width="1000" alt="Adidas Discount Notification" src="https://github.com/user-attachments/assets/55070a0a-a5e1-43dc-8daa-a3bed4c422fb" />
@@ -16,7 +16,7 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 ## Project Structure
 📂 `adidas_discount_notifier`  
-├── 📄 `main.py`              ***Main script execution****  
+├── 📄 `main.py`              *Main script execution*  
 ├── 📄 `email_notify.py`      *Handles email notifications*  
 ├── 📄 `html_generator.py`    *Generates HTML email content*  
 ├── 📄 `api_client.py`        *Adidas API requests and product search*  
@@ -28,11 +28,11 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 ### Python libraries used in this project:-
 
-  -  ####curl_cffi#### – For making HTTP requests to fetch product details.
-  -  ####pydantic#### – For defining structured models and data validation.
-  -  rich – For colorful and formatted console output.
-  -  smtplib – For sending emails via SMTP.
-  -  email.mime – For constructing HTML and plain text emails.
+  -  *curl_cffi* – For making HTTP requests to fetch product details.
+  -  *pydantic* – For defining structured models and data validation.
+  -  *rich* – For colorful and formatted console output.
+  -  *smtplib* – For sending emails via SMTP.
+  -  *email.mime* – For constructing HTML and plain text emails.
     
 
 
@@ -44,23 +44,23 @@ Implementation uses Python and web scraping techniques to track the Adidas UK we
 
 ## Installation
 
-1.  Clone this repository:
+*1.  Clone this repository*
 
 -  git clone https://github.com/yourusername/adidas-scraper.git
 -  cd adidas-scraper
 
-2.  Create a virtual environment
+*2.  Create a virtual environment*
 
 -  python -m venv venv
 -  source venv/bin/activate  # macOS/Linux
 -  venv\Scripts\activate     # Windows
 
-3.  Install dependencies:
+*3.  Install dependencies:*
 
 -  pip install -r requirements.txt
 
 
-4. Set up environment variables
+*4. Set up environment variables*
 Create a .env file in the root directory:
 
 -  SMTP_SERVER=smtp.mail.me.com
@@ -68,12 +68,12 @@ Create a .env file in the root directory:
 -  EMAIL_SENDER=your_email@example.com
 -  EMAIL_PASSWORD=your_app_password
 
-5.  Usage
+*5.  Usage*
 
 Run the script to fetch current discounts and receive an email notification:
 -  python main.py
 
-6.  Customizing Search Parameters
+*6.  Customizing Search parameters*
 
 You can modify the search parameters in the main() function:
 For example:
